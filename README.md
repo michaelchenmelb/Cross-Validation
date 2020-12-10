@@ -1,3 +1,5 @@
+    Package provides a set tools for cross-validation purpose along with one example.		
+	
 	#######################
     cscv (M, S, func)
 	#######################
