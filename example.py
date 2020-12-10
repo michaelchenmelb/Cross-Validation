@@ -10,7 +10,6 @@ import pandas as pd
 import numpy as np
 
 df = (pd.DataFrame(np.random.rand(5000, 1000))-0.5)*2/100
-df =pd.read_csv(r'\\farmnas\farm\Research\suhinthanm\SessionRR\Out\DynR1_All_TH_2010\C2C_Return.csv',index_col=0)
 annualised_sharpe=lambda df: df.mean(axis=0)/df.std(axis=0)*(252**0.5)
 
 """CSCV example"""
